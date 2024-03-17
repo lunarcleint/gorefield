@@ -445,13 +445,15 @@ function create() {
 	FlxG.autoPause = false; // Así evitamos que se añada el "resume" al momento de volver al juego y lo añadimos nosotros mismos con una condición -EstoyAburridow
 	for (path in ["Odivision_Channel", "Fat_Cat_TV", "Purrfect_Show", "Funny_Clown", "The_Unknow_World"]) {
 		video = new FlxVideoSprite(555, 186);
+		video.bitmap.onFormatSetup.add(function()
+		{
+			video.scale.set(0.6, 0.6);
+			video.updateHitbox(); 
+		});
 		video.load(Assets.getPath(Paths.video(path)), [':input-repeat=65535']); // Lunar, actualiza la hxvlc lib porfis :sob: -EstoyAburridow
-
-		video.scale.set(0.6, 0.6);
-		video.updateHitbox(); 
 		video.visible = false;
-		videos.push(video);
 
+		videos.push(video);
 		add(video);
 	}
 	FlxG.autoPause = prevAutoPause;
