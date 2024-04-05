@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gbox.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GBOX IDLE 10000" x="4" y="4" width="235" height="390" frameX="-4" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10001" x="243" y="4" width="237" height="391" frameX="0" frameY="0" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10002" x="243" y="4" width="237" height="391" frameX="0" frameY="0" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10003" x="484" y="4" width="236" height="391" frameX="-2" frameY="0" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10004" x="484" y="4" width="236" height="391" frameX="-2" frameY="0" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10005" x="724" y="4" width="235" height="390" frameX="-4" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10006" x="724" y="4" width="235" height="390" frameX="-4" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10007" x="963" y="4" width="235" height="390" frameX="-5" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10008" x="963" y="4" width="235" height="390" frameX="-5" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10009" x="1202" y="4" width="236" height="390" frameX="-5" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10010" x="1202" y="4" width="236" height="390" frameX="-5" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10011" x="1202" y="4" width="236" height="390" frameX="-5" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10012" x="1202" y="4" width="236" height="390" frameX="-5" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10013" x="1202" y="4" width="236" height="390" frameX="-5" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10014" x="1442" y="4" width="235" height="390" frameX="-7" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10015" x="1681" y="4" width="234" height="388" frameX="-11" frameY="-3" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10016" x="1681" y="4" width="234" height="388" frameX="-11" frameY="-3" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10017" x="4" y="399" width="234" height="390" frameX="-9" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10018" x="4" y="399" width="234" height="390" frameX="-9" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10019" x="242" y="399" width="235" height="390" frameX="-7" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10020" x="242" y="399" width="235" height="390" frameX="-7" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10021" x="481" y="399" width="235" height="390" frameX="-6" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10022" x="481" y="399" width="235" height="390" frameX="-6" frameY="-1" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10023" x="720" y="399" width="236" height="391" frameX="-5" frameY="0" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10024" x="720" y="399" width="236" height="391" frameX="-5" frameY="0" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10025" x="720" y="399" width="236" height="391" frameX="-5" frameY="0" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10026" x="720" y="399" width="236" height="391" frameX="-5" frameY="0" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX IDLE 10027" x="720" y="399" width="236" height="391" frameX="-5" frameY="0" frameWidth="245" frameHeight="391"/>
+	<SubTexture name="GBOX MISS 10000" x="960" y="399" width="236" height="388"/>
+	<SubTexture name="GBOX MISS 10001" x="960" y="399" width="236" height="388"/>
+	<SubTexture name="GBOX MISS 10002" x="1200" y="399" width="236" height="388"/>
+	<SubTexture name="GBOX MISS 10003" x="1200" y="399" width="236" height="388"/>
+	<SubTexture name="GBOX MISS 10004" x="960" y="399" width="236" height="388"/>
+	<SubTexture name="GBOX MISS 10005" x="960" y="399" width="236" height="388"/>
+	<SubTexture name="GBOX MISS 10006" x="1440" y="399" width="236" height="388"/>
+	<SubTexture name="GBOX MISS 10007" x="1440" y="399" width="236" height="388"/>
+</TextureAtlas>

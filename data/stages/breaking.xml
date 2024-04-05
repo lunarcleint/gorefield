@@ -19,6 +19,10 @@
 	<sprite name="breakingHUD" x="1" y="0" sprite="MENU_BREAKING" antialiasing="true" scrollx="1" scrolly="1" scale="1">
 			<property name="zoomFactor" type="float" value="0"/>
 	</sprite>
+	<sprite name="breakingHUD2" x="1" y="-1" sprite="MENU_BREAKING_DOWNSCROLL" antialiasing="true" scrollx="1" scrolly="1" scale="1">
+			<property name="zoomFactor" type="float" value="0"/>
+			<property name="alpha" type="float" value="0.00001"/>
+	</sprite>
 	<sprite name="danger" x="316" y="80" sprite="DANGER" antialiasing="true" scrollx="1" scrolly="1" scale="1">
 		<anim name="idle" anim="DANGER" loop="true" fps="24"/>
 		<property name="zoomFactor" type="float" value="0"/>

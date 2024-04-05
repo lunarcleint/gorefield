@@ -6,7 +6,7 @@ public var breakingPS:Int = 4;
 
 function create(){
 	scripts.getByName("ui_healthbar.hx").call("disableScript");
-	camHUD.downscroll = false; //doesnt work with downscroll sorry downscroll players :sob: - lean
+	//camHUD.downscroll = false; //doesnt work with downscroll sorry downscroll players :sob: - lean : shut up buzz ill kill you - lean
 }
 
 function postCreate() {
@@ -34,6 +34,26 @@ function postCreate() {
 	remove(stage.stageSprites["black"]);
 	insert(99,stage.stageSprites["black"]);
 	stage.stageSprites["black"].cameras = [camHUD];
+
+	if (camHUD.downscroll){
+		stage.stageSprites["breakingHUD2"].alpha = 1;
+		stage.stageSprites["breakingHUD"].alpha = 0;
+		stage.stageSprites["danger"].y += 490;
+		breakingHeart.y += 490;
+
+		var moveBy = 65;
+
+		dad.y -= moveBy;
+		boyfriend.y -= moveBy;
+		for (sprite in [stage.stageSprites["walterBG"],stage.stageSprites["walterLegs"],stage.stageSprites["jesseBG"],stage.stageSprites["jesseBG2"]]){
+			if(sprite == stage.stageSprites["jesseBG2"]){
+				sprite.y -= moveBy + 50;
+			}
+			else{
+				sprite.y -= moveBy;
+			}
+		}
+	}
 
 		
 	snapCam();

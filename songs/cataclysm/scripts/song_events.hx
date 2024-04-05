@@ -186,7 +186,7 @@ function stepHit(step:Int) {
         case 1070:
             targetAlpha2 = 1;
             targetAlpha1 = 0.25;
-        case 1585:
+        case 1587:
             VideoHandler.playNext();
         case 1584:
             FlxTween.tween(camHUD, {alpha: 0}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.quadIn});
@@ -299,7 +299,7 @@ function stepHit(step:Int) {
                 strumLineDadZoom = -1;
             }});
             FlxTween.tween(camHUD, {alpha: 0}, (Conductor.stepCrochet / 1000) * 24, {ease: FlxEase.quadIn});
-        case 3533:
+        case 3534:
             VideoHandler.playNext();
         case 3850:
             camFollowChars = false; 

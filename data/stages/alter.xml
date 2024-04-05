@@ -1,0 +1,28 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="stage" folder="stages/altercat/" noteSkin="alter" splashSkin="gorefield_alter">
+	<sprite name="BG" x="-276" y="-228" sprite="bg curious cat" antialiasing="true" scrollx="1" scrolly="1" scale="1"/>
+	<gf x="755" y="200" camxoffset="210" camyoffset="100" scroll="1"/>
+	<opponent x="220" y="390"  camxoffset="140" camyoffset="0"/>
+	<player x="970" y="330" camxoffset="0" camyoffset="0"/>
+
+	<sprite name="sombra" x="0" y="-80" sprite="sombra" antialiasing="true" scrollx="0" scrolly="0" scale="1">
+			<property name="zoomFactor" type="float" value="0"/>
+	</sprite>
+	<sprite name="status" x="430" y="25" sprite="status anim" antialiasing="true" scrollx="0" scrolly="0" scale="0.8">
+		<anim name="idle" anim="status" loop="true" fps="24"/>
+		<property name="zoomFactor" type="float" value="0"/>
+	</sprite>
+
+	<sprite name="bgBar" x="-100" y="38" sprite="health bar" antialiasing="true" scrollx="0" scrolly="0" scale="0.6">
+		<property name="zoomFactor" type="float" value="0"/>
+	</sprite>
+
+	<sprite name="jumpscare" x="-300" y="-200" sprite="jumpscare" antialiasing="true" scrollx="0" scrolly="0" scale="0.7">
+		<property name="zoomFactor" type="float" value="0"/>
+		<property name="alpha" type="float" value="0.000001"/>
+	</sprite>
+
+	<solid name="blackHUD" x="-700" y="-500" width="3000" height="2000" scrollx="0" scrolly="0" color="0x000000">
+		<property name="active" type="bool" value="true" />
+	</solid>
+</stage>

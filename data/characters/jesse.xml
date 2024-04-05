@@ -1,8 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character color="#5A50D3" sprite="JESSEE_ASSETS" x="-80" isGF="false" holdTime="1.5" y="540" camx="230" icon="bf-house" camy="-280" isPlayer="true" flipX="true" gameOverChar="jesse-death" iconoffsetx="18" animatedIcon="true" iconoffsety="-10">
+<character color="#5A50D3" sprite="JESSEE_ASSETS" x="-80" isGF="false" y="540" camx="230" icon="bf-house" camy="-280" isPlayer="true" flipX="true" holdTime="1.5" gameOverChar="jesse-death" iconoffsetx="18" animatedIcon="true" iconoffsety="-10">
 	<anim x="0" loop="true" y="0" fps="24" anim="JESSEE IDLE" name="idle"/>
 	<anim x="42" loop="false" y="3" fps="24" anim="JESSEE LEFT" name="singLEFT"/>
 	<anim x="85" loop="false" y="-111" fps="24" anim="JESSEE DOWN" name="singDOWN"/>
 	<anim x="8" loop="false" y="79" fps="24" anim="JESSEE UP" name="singUP"/>
 	<anim x="55" loop="false" y="-26" fps="24" anim="JESSEE RIGHT" name="singRIGHT"/>
+	<anim x="50" loop="false" y="1" fps="24" anim="JESSEE MISS LEFT0" name="singLEFTmiss"/>
+	<anim x="85" loop="false" y="-50" fps="24" anim="JESSEE MISS DOWN" name="singDOWNmiss"/>
+	<anim x="8" loop="false" y="96" fps="24" anim="JESSEE MISS UP" name="singUPmiss"/>
+	<anim x="55" loop="false" y="27" fps="24" anim="JESSEE MISS RIGHT" name="singRIGHTmiss"/>
 </character>

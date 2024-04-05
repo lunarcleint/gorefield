@@ -445,11 +445,10 @@ function create() {
 	FlxG.autoPause = false; // Así evitamos que se añada el "resume" al momento de volver al juego y lo añadimos nosotros mismos con una condición -EstoyAburridow
 	for (path in ["Odivision_Channel", "Fat_Cat_TV", "Purrfect_Show", "Funny_Clown", "The_Unknow_World"]) {
 		video = new FlxVideoSprite(555, 186);
-		video.bitmap.onFormatSetup.add(function()
-		{
-			video.scale.set(0.6, 0.6);
-			video.updateHitbox(); 
-		});
+
+		video.scale.set(0.6, 0.6);
+		video.updateHitbox(); 
+
 		video.load(Assets.getPath(Paths.video(path)), [':input-repeat=65535']); // Lunar, actualiza la hxvlc lib porfis :sob: -EstoyAburridow
 		video.visible = false;
 
@@ -571,11 +570,6 @@ function create() {
 		yesText.visible = noText.visible = false;
 		okText.visible = true;
 	}
-
-	if(FlxG.save.data.arlenePhase >= 4 && FlxG.save.data.canVisitArlene){
-		generateSECRET();
-		codes.set(secretCode, function() CodesFunctions.selectSong("Laughter and Cries", "Binky_icon"));
-	}
 }
 
 function updateCodesList(){
@@ -589,6 +583,9 @@ function updateCodesList(){
 		codeText.setFormat("fonts/papercuts-2.ttf", 70, i % 3==0 ? 0xFF2B5325 : i % 3==2 ? 0xFF172556 : 0xFF3D2F23, "center", FlxTextBorderStyle.OUTLINE, 0xFFFBF5F5);
 		codeText.borderSize = 7;
 		codeText.scale.set(0.35,0.35);
+		if (codeText.text.length >= 12)
+			codeText.scale.set(0.3,0.3);
+
 		codeText.updateHitbox();
 		codeText.ID = i;
 		add(codeText);
@@ -782,6 +779,10 @@ function update(elapsed:Float) {
 		codesButton.x = codesPanel.x + 103;
 		codesButton.y = codesPanel.y + 330;
 		codesButton.color = codesText.color = codesPanel.color;
+
+		if(FlxG.save.data.arlenePhase >= 4 && FlxG.save.data.canVisitArlene){
+			generateSECRET();
+		}
 
 		var lastOpened:Bool = codesOpened;
 		if (canMove) {
@@ -1771,7 +1772,7 @@ var CodesFunctions:{} = {
 			return;
 		}
 		
-		FlxG.save.data.arlenePhase = 0;
+		FlxG.save.data.arlenePhase = 4;
 		FlxG.save.data.canVisitArlene = false;
 		FlxG.save.data.hasVisitedPhase = false;
 		FlxG.save.data.paintPosition = -1;
@@ -1784,7 +1785,7 @@ var CodesFunctions:{} = {
 		FlxG.save.data.weeksFinished = [false, false, false, false, false, false];
 		FlxG.save.data.codesUnlocked = false;
 		FlxG.save.data.weeksUnlocked = [true, false, false, false, false, false, false, false];
-		FlxG.save.data.codesList = ["HUMUNGOSAURIO", "PUEBLO MARRON"];
+		FlxG.save.data.codesList = ["HUMUNGOSAURIO", "PUEBLO MARRON","ALTERCAT"];
 
 		FlxG.save.data.weekProgress = weekProgress = ["" => {}];
 		
@@ -1832,6 +1833,7 @@ var codes:Map<String, Void -> Void> = [
 	"TAKE ME" => function() CodesFunctions.selectSong("Take Me Jon", "garfield-sad"), 
 	"LYMAN" => function() CodesFunctions.selectSong("Captive", "lyman-prision"), 
 	"CATNIP" => function() CodesFunctions.selectSong("Breaking Cat", "walter-monster"), 
+	"ALTERCAT" => function() CodesFunctions.selectSong("Alter Cat", "altergarfield"), 
 
 	// Youtubers spanish codes
 	"TANUKI" => function() CodesFunctions.meme("irl"),
@@ -1919,6 +1921,7 @@ function destroy() {
 }
 
 var secretCode:String = "";
+var previousCode:String = "";
 
 function generateSECRET() {
 	var songsList:Array<String> = [for (song in Paths.getFolderDirectories('songs', false, false)) song.toLowerCase()];
@@ -1940,16 +1943,25 @@ function generateSECRET() {
 
     var firstMinute:Int = Math.floor(Std.parseFloat(stringminutes.charAt(0)));
 
-	var codes:Array<Float> = [
+	var codesCalculation:Array<Float> = [
 		date.getDate() % 10, // Last digit of day in month (like 4/17/24, would be 7) 
 		Math.floor(precent) % 10, // Second digit of precentage of highest highscore (94% would be 4)
 		3, // Number of songs that start with C - Number of songs that start with M (i counted, its 3)
 		1 + Math.floor(firstMinute) // Songs you face off a god (1) + First digit of minutes (like 3:29PM would be 2)
 	];
 	// codes.sort((a, b) -> {return Std.int(b - a);}); // scrapped -lunar
-	secretCode = codes.join("");
+	previousCode = secretCode;
 
-	#if debug
+	if(previousCode == codesCalculation.join("")) return;
+
+	if(previousCode != codesCalculation.join("") && previousCode != "" && codes.get(previousCode))
+		codes.set(previousCode, null);
+
+	secretCode = codesCalculation.join("");
+	codes.set(secretCode, function() CodesFunctions.selectSong("Laughter and Cries", "Binky_icon"));
+
+
 	trace(secretCode);
-	#end
+	trace("Previous Code: " + previousCode);
+	trace("Updated Binky Code");
 }

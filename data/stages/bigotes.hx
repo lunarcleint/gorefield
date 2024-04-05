@@ -88,6 +88,9 @@ function create() {
 		new ComboRating(0.95, "S", 0xFFB11EEA),
 		new ComboRating(1, "S++", 0xFFC63BFD),
 	];
+
+    gameOverSong = "gameOvers/bigotes/bigotes_gameover_loop";
+    retrySFX = "gameOvers/bigotes/bigotes_gameover_end";
 }
 
 var bgTween:FlxTween;

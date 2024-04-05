@@ -1,0 +1,7 @@
+{
+    "loadingbg": "pantalla_de_carga_codes",
+    "loadingimage": "code_carga",
+    "loadinganim": "code",
+    "loadingpos": [500, 0],
+    "bgOffset": [-20, 20]
+}

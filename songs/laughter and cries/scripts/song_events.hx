@@ -75,8 +75,7 @@ function stepHit(step:Int)
             for (sprite in ["floor", "background"])
                 stage.stageSprites[sprite].alpha = 1;
 
-            for (spr in [gorefieldhealthBarBG, gorefieldhealthBar, gorefieldiconP1, gorefieldiconP2, scoreTxt, missesTxt, accuracyTxt])
-                spr.alpha = 1;
+            targetAlpha1 = 1;
 
             camFollowChars = false; camFollow.setPosition(155, 200);
             snapCam();
@@ -94,8 +93,7 @@ function stepHit(step:Int)
 
             snapCam();
         case 761:
-            for (spr in [gorefieldhealthBarBG, gorefieldhealthBar, gorefieldiconP1, gorefieldiconP2, scoreTxt, missesTxt, accuracyTxt])
-                spr.alpha = 0.3;
+            targetAlpha1 = 0.3;
 
             dad.alpha = 0;
         case 768:
@@ -106,12 +104,12 @@ function stepHit(step:Int)
             dadBackdrop.visible = dadBackdrop.active = true;
             FlxTween.tween(dadBackdrop, {alpha: 1}, (Conductor.stepCrochet / 1000) * 16);
         case 1152:
-            FlxTween.tween(dadBackdrop, {alpha: 0}, (Conductor.stepCrochet / 1000) * 16);
-            FlxTween.tween(boyfriend, {alpha: 0}, (Conductor.stepCrochet / 1000) * 16);
+            FlxTween.tween(dadBackdrop, {alpha: 0}, (Conductor.stepCrochet / 1000) * 41);
+            FlxTween.tween(boyfriend, {alpha: 0}, (Conductor.stepCrochet / 1000) * 41);
         case 1197:
             boyfriend.alpha = 0;
-        case 1208:
-            FlxTween.tween(boyfriend, {alpha: 1}, (Conductor.stepCrochet / 1000) * 8);
+        case 1200:
+            FlxTween.tween(boyfriend, {alpha: 1}, (Conductor.stepCrochet / 1000) * 12);
         case 1270:
             devControlBotplay = !(player.cpu = true);
             FlxTween.tween(camHUD, {alpha: 0}, (Conductor.stepCrochet / 1000) * 4);
@@ -120,9 +118,17 @@ function stepHit(step:Int)
             devControlBotplay = !(player.cpu = false);
     }
 }
-
+var targetAlpha1 = 0;
+var controlHealthAlpha:Bool = true;
+var curHealthAlpha:Float = 1;
 function update(elapsed:Float)
 {
+    if (controlHealthAlpha) {
+        curHealthAlpha = lerp(curHealthAlpha, targetAlpha1, 1/30);
+        for (spr in [gorefieldhealthBarBG, gorefieldhealthBar, gorefieldiconP1, gorefieldiconP2, scoreTxt, missesTxt, accuracyTxt])
+            spr.alpha = curHealthAlpha;
+    }
+
     if (dadBackdrop == null || !dadBackdrop.active)
         return;
 

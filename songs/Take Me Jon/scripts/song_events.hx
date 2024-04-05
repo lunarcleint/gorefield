@@ -85,7 +85,7 @@ function stepHit(step:Int) {
         case 238:
             tweenCamera(true);
             remove(blackOverlay);
-            insert(10, blackOverlay);
+            insert(11, blackOverlay);
         case 368:
             tweenCamera(false);
 

@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 130,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -3374045,
+	"displayName": "Alter Cat",
+	"icon": "face",
+	"name": "Alter Cat",
+	"color": "#CC8423",
+	"customValues": {}
+}

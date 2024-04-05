@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="status anim.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="status0000" x="4" y="4" width="367" height="123"/>
+	<SubTexture name="status0001" x="4" y="4" width="367" height="123"/>
+	<SubTexture name="status0002" x="4" y="4" width="367" height="123"/>
+	<SubTexture name="status0003" x="4" y="4" width="367" height="123"/>
+	<SubTexture name="status0004" x="4" y="4" width="367" height="123"/>
+	<SubTexture name="status0005" x="4" y="4" width="367" height="123"/>
+	<SubTexture name="status0006" x="4" y="4" width="367" height="123"/>
+	<SubTexture name="status0007" x="4" y="4" width="367" height="123"/>
+	<SubTexture name="status0008" x="4" y="4" width="367" height="123"/>
+	<SubTexture name="status0009" x="4" y="131" width="367" height="123"/>
+	<SubTexture name="status0010" x="4" y="131" width="367" height="123"/>
+	<SubTexture name="status0011" x="4" y="131" width="367" height="123"/>
+	<SubTexture name="status0012" x="4" y="131" width="367" height="123"/>
+	<SubTexture name="status0013" x="4" y="131" width="367" height="123"/>
+	<SubTexture name="status0014" x="4" y="131" width="367" height="123"/>
+	<SubTexture name="status0015" x="4" y="131" width="367" height="123"/>
+	<SubTexture name="status0016" x="4" y="131" width="367" height="123"/>
+	<SubTexture name="status0017" x="4" y="131" width="367" height="123"/>
+	<SubTexture name="status0018" x="4" y="131" width="367" height="123"/>
+	<SubTexture name="status0019" x="4" y="131" width="367" height="123"/>
+</TextureAtlas>

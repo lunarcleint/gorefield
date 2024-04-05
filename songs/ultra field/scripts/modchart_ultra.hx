@@ -100,6 +100,8 @@ function beatHit(beat:Int) {
         sizeTween2 = FlxTween.num(10.0, 0.0, (Conductor.stepCrochet / 1000) * 2, {ease: FlxEase.quadOut}, (val:Float) -> {
             glowShader2.size = val;
         });
+        FlxG.camera.shake(0.01, .12);
+        camHUD.shake(0.008, .1);
     }
 
     if(abberationStuff){

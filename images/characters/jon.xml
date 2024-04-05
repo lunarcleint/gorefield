@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jon.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="JON IDLE 10000" x="4" y="4" width="284" height="463" frameX="0" frameY="-1" frameWidth="284" frameHeight="464"/>
+	<SubTexture name="JON IDLE 10001" x="292" y="4" width="283" height="463" frameX="-1" frameY="-1" frameWidth="284" frameHeight="464"/>
+	<SubTexture name="JON IDLE 10002" x="292" y="4" width="283" height="463" frameX="-1" frameY="-1" frameWidth="284" frameHeight="464"/>
+	<SubTexture name="JON IDLE 10003" x="579" y="4" width="284" height="463" frameX="0" frameY="-1" frameWidth="284" frameHeight="464"/>
+	<SubTexture name="JON IDLE 10004" x="579" y="4" width="284" height="463" frameX="0" frameY="-1" frameWidth="284" frameHeight="464"/>
+	<SubTexture name="JON IDLE 10005" x="4" y="471" width="284" height="464"/>
+	<SubTexture name="JON IDLE 10006" x="4" y="471" width="284" height="464"/>
+	<SubTexture name="JON IDLE 10007" x="292" y="471" width="284" height="464"/>
+	<SubTexture name="JON IDLE 10008" x="292" y="471" width="284" height="464"/>
+	<SubTexture name="JON IDLE 10009" x="292" y="471" width="284" height="464"/>
+	<SubTexture name="JON IDLE 10010" x="292" y="471" width="284" height="464"/>
+	<SubTexture name="JON IDLE 10011" x="292" y="471" width="284" height="464"/>
+	<SubTexture name="JON IDLE 10012" x="292" y="471" width="284" height="464"/>
+	<SubTexture name="JON IDLE 10013" x="292" y="471" width="284" height="464"/>
+</TextureAtlas>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="altergarfield.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GOREFIELD DOWN 10000" x="4" y="4" width="173" height="250" frameX="-1" frameY="0" frameWidth="174" frameHeight="250"/>
+	<SubTexture name="GOREFIELD DOWN 10001" x="181" y="4" width="173" height="250" frameX="-1" frameY="0" frameWidth="174" frameHeight="250"/>
+	<SubTexture name="GOREFIELD DOWN 10002" x="358" y="4" width="173" height="250" frameX="-1" frameY="0" frameWidth="174" frameHeight="250"/>
+	<SubTexture name="GOREFIELD DOWN 10003" x="535" y="4" width="173" height="250" frameX="-1" frameY="0" frameWidth="174" frameHeight="250"/>
+	<SubTexture name="GOREFIELD DOWN 10004" x="712" y="4" width="174" height="250"/>
+	<SubTexture name="GOREFIELD DOWN 10005" x="890" y="4" width="174" height="250"/>
+	<SubTexture name="GOREFIELD DOWN 10006" x="1068" y="4" width="174" height="250"/>
+	<SubTexture name="GOREFIELD DOWN 10007" x="1246" y="4" width="174" height="250"/>
+	<SubTexture name="GOREFIELD DOWN 10008" x="1068" y="4" width="174" height="250"/>
+	<SubTexture name="GOREFIELD DOWN 10009" x="1246" y="4" width="174" height="250"/>
+	<SubTexture name="GOREFIELD IDLE 10000" x="1424" y="4" width="173" height="283" frameX="-1" frameY="0" frameWidth="174" frameHeight="283"/>
+	<SubTexture name="GOREFIELD IDLE 10001" x="1601" y="4" width="173" height="282" frameX="-1" frameY="-1" frameWidth="174" frameHeight="283"/>
+	<SubTexture name="GOREFIELD IDLE 10002" x="1601" y="4" width="173" height="282" frameX="-1" frameY="-1" frameWidth="174" frameHeight="283"/>
+	<SubTexture name="GOREFIELD IDLE 10003" x="1778" y="4" width="173" height="283" frameX="-1" frameY="0" frameWidth="174" frameHeight="283"/>
+	<SubTexture name="GOREFIELD IDLE 10004" x="1778" y="4" width="173" height="283" frameX="-1" frameY="0" frameWidth="174" frameHeight="283"/>
+	<SubTexture name="GOREFIELD IDLE 10005" x="4" y="291" width="173" height="283" frameX="-1" frameY="0" frameWidth="174" frameHeight="283"/>
+	<SubTexture name="GOREFIELD IDLE 10006" x="4" y="291" width="173" height="283" frameX="-1" frameY="0" frameWidth="174" frameHeight="283"/>
+	<SubTexture name="GOREFIELD IDLE 10007" x="181" y="291" width="173" height="283" frameX="-1" frameY="0" frameWidth="174" frameHeight="283"/>
+	<SubTexture name="GOREFIELD IDLE 10008" x="181" y="291" width="173" height="283" frameX="-1" frameY="0" frameWidth="174" frameHeight="283"/>
+	<SubTexture name="GOREFIELD IDLE 10009" x="358" y="291" width="174" height="283"/>
+	<SubTexture name="GOREFIELD IDLE 10010" x="358" y="291" width="174" height="283"/>
+	<SubTexture name="GOREFIELD IDLE 10011" x="358" y="291" width="174" height="283"/>
+	<SubTexture name="GOREFIELD IDLE 10012" x="358" y="291" width="174" height="283"/>
+	<SubTexture name="GOREFIELD IDLE 10013" x="358" y="291" width="174" height="283"/>
+	<SubTexture name="GOREFIELD LEFT 10000" x="536" y="291" width="194" height="285" frameX="0" frameY="-2" frameWidth="201" frameHeight="287"/>
+	<SubTexture name="GOREFIELD LEFT 10001" x="536" y="291" width="194" height="285" frameX="0" frameY="-2" frameWidth="201" frameHeight="287"/>
+	<SubTexture name="GOREFIELD LEFT 10002" x="734" y="291" width="195" height="287" frameX="-3" frameY="0" frameWidth="201" frameHeight="287"/>
+	<SubTexture name="GOREFIELD LEFT 10003" x="734" y="291" width="195" height="287" frameX="-3" frameY="0" frameWidth="201" frameHeight="287"/>
+	<SubTexture name="GOREFIELD LEFT 10004" x="933" y="291" width="198" height="287" frameX="-3" frameY="0" frameWidth="201" frameHeight="287"/>
+	<SubTexture name="GOREFIELD LEFT 10005" x="933" y="291" width="198" height="287" frameX="-3" frameY="0" frameWidth="201" frameHeight="287"/>
+	<SubTexture name="GOREFIELD LEFT 10006" x="1135" y="291" width="198" height="287" frameX="-3" frameY="0" frameWidth="201" frameHeight="287"/>
+	<SubTexture name="GOREFIELD LEFT 10007" x="1135" y="291" width="198" height="287" frameX="-3" frameY="0" frameWidth="201" frameHeight="287"/>
+	<SubTexture name="GOREFIELD LEFT 10008" x="1135" y="291" width="198" height="287" frameX="-3" frameY="0" frameWidth="201" frameHeight="287"/>
+	<SubTexture name="GOREFIELD LEFT 10009" x="1135" y="291" width="198" height="287" frameX="-3" frameY="0" frameWidth="201" frameHeight="287"/>
+	<SubTexture name="GOREFIELD RIGHT 10000" x="1337" y="291" width="210" height="282" frameX="-1" frameY="0" frameWidth="211" frameHeight="282"/>
+	<SubTexture name="GOREFIELD RIGHT 10001" x="1337" y="291" width="210" height="282" frameX="-1" frameY="0" frameWidth="211" frameHeight="282"/>
+	<SubTexture name="GOREFIELD RIGHT 10002" x="1551" y="291" width="210" height="282" frameX="-1" frameY="0" frameWidth="211" frameHeight="282"/>
+	<SubTexture name="GOREFIELD RIGHT 10003" x="1551" y="291" width="210" height="282" frameX="-1" frameY="0" frameWidth="211" frameHeight="282"/>
+	<SubTexture name="GOREFIELD RIGHT 10004" x="1765" y="291" width="208" height="282" frameX="0" frameY="0" frameWidth="211" frameHeight="282"/>
+	<SubTexture name="GOREFIELD RIGHT 10005" x="1765" y="291" width="208" height="282" frameX="0" frameY="0" frameWidth="211" frameHeight="282"/>
+	<SubTexture name="GOREFIELD RIGHT 10006" x="4" y="582" width="208" height="282" frameX="0" frameY="0" frameWidth="211" frameHeight="282"/>
+	<SubTexture name="GOREFIELD RIGHT 10007" x="4" y="582" width="208" height="282" frameX="0" frameY="0" frameWidth="211" frameHeight="282"/>
+	<SubTexture name="GOREFIELD RIGHT 10008" x="4" y="582" width="208" height="282" frameX="0" frameY="0" frameWidth="211" frameHeight="282"/>
+	<SubTexture name="GOREFIELD RIGHT 10009" x="4" y="582" width="208" height="282" frameX="0" frameY="0" frameWidth="211" frameHeight="282"/>
+	<SubTexture name="GOREFIELD TF 10000" x="216" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10001" x="216" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10002" x="393" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10003" x="393" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10004" x="570" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10005" x="570" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10006" x="747" y="582" width="173" height="281" frameX="-14" frameY="-90" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10007" x="747" y="582" width="173" height="281" frameX="-14" frameY="-90" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10008" x="924" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10009" x="924" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10010" x="1101" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10011" x="1101" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10012" x="1101" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10013" x="1101" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10014" x="1101" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10015" x="1101" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10016" x="1101" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10017" x="1101" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10018" x="1101" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10019" x="1101" y="582" width="173" height="282" frameX="-14" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10020" x="1278" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10021" x="1455" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10022" x="1455" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10023" x="1632" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10024" x="1632" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10025" x="1809" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10026" x="1809" y="582" width="173" height="283" frameX="-14" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10027" x="4" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10028" x="4" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10029" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10030" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10031" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10032" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10033" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10034" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10035" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10036" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10037" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10038" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10039" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10040" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10041" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10042" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10043" x="182" y="869" width="174" height="283" frameX="-13" frameY="-88" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10044" x="360" y="869" width="174" height="282" frameX="-13" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10045" x="360" y="869" width="174" height="282" frameX="-13" frameY="-89" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10046" x="538" y="869" width="174" height="284" frameX="-13" frameY="-87" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10047" x="538" y="869" width="174" height="284" frameX="-13" frameY="-87" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10048" x="716" y="869" width="174" height="285" frameX="-13" frameY="-86" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10049" x="716" y="869" width="174" height="285" frameX="-13" frameY="-86" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10050" x="894" y="869" width="174" height="288" frameX="-13" frameY="-83" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10051" x="894" y="869" width="174" height="288" frameX="-13" frameY="-83" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10052" x="1072" y="869" width="174" height="297" frameX="-13" frameY="-74" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10053" x="1072" y="869" width="174" height="297" frameX="-13" frameY="-74" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10054" x="1250" y="869" width="174" height="316" frameX="-13" frameY="-55" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10055" x="1250" y="869" width="174" height="316" frameX="-13" frameY="-55" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10056" x="1428" y="869" width="176" height="336" frameX="-13" frameY="-37" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10057" x="1428" y="869" width="176" height="336" frameX="-13" frameY="-37" frameWidth="203" frameHeight="374"/>
+	<SubTexture name="GOREFIELD TF 10058" x="1608" y="869" width="203" height="374"/>
+	<SubTexture name="GOREFIELD TF 10059" x="1608" y="869" width="203" height="374"/>
+	<SubTexture name="GOREFIELD TF 10060" x="1608" y="869" width="203" height="374"/>
+	<SubTexture name="GOREFIELD TF 10061" x="1608" y="869" width="203" height="374"/>
+	<SubTexture name="GOREFIELD TF 10062" x="1608" y="869" width="203" height="374"/>
+	<SubTexture name="GOREFIELD TF 10063" x="1608" y="869" width="203" height="374"/>
+	<SubTexture name="GOREFIELD TF 10064" x="1608" y="869" width="203" height="374"/>
+	<SubTexture name="GOREFIELD UP 10000" x="1815" y="869" width="174" height="287" frameX="0" frameY="0" frameWidth="178" frameHeight="288"/>
+	<SubTexture name="GOREFIELD UP 10001" x="4" y="1247" width="174" height="287" frameX="0" frameY="0" frameWidth="178" frameHeight="288"/>
+	<SubTexture name="GOREFIELD UP 10002" x="182" y="1247" width="174" height="287" frameX="0" frameY="-1" frameWidth="178" frameHeight="288"/>
+	<SubTexture name="GOREFIELD UP 10003" x="360" y="1247" width="174" height="287" frameX="0" frameY="-1" frameWidth="178" frameHeight="288"/>
+	<SubTexture name="GOREFIELD UP 10004" x="538" y="1247" width="178" height="286" frameX="0" frameY="-2" frameWidth="178" frameHeight="288"/>
+	<SubTexture name="GOREFIELD UP 10005" x="720" y="1247" width="178" height="286" frameX="0" frameY="-2" frameWidth="178" frameHeight="288"/>
+	<SubTexture name="GOREFIELD UP 10006" x="902" y="1247" width="178" height="287" frameX="0" frameY="-1" frameWidth="178" frameHeight="288"/>
+	<SubTexture name="GOREFIELD UP 10007" x="1084" y="1247" width="178" height="287" frameX="0" frameY="-1" frameWidth="178" frameHeight="288"/>
+	<SubTexture name="GOREFIELD UP 10008" x="902" y="1247" width="178" height="287" frameX="0" frameY="-1" frameWidth="178" frameHeight="288"/>
+	<SubTexture name="GOREFIELD UP 10009" x="1084" y="1247" width="178" height="287" frameX="0" frameY="-1" frameWidth="178" frameHeight="288"/>
+	<SubTexture name="GOREFIELDBED DOWN 10000" x="1266" y="1247" width="260" height="149" frameX="0" frameY="0" frameWidth="265" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED DOWN 10001" x="1266" y="1247" width="260" height="149" frameX="0" frameY="0" frameWidth="265" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED DOWN 10002" x="1530" y="1247" width="264" height="149" frameX="0" frameY="0" frameWidth="265" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED DOWN 10003" x="1530" y="1247" width="264" height="149" frameX="0" frameY="0" frameWidth="265" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED DOWN 10004" x="4" y="1538" width="264" height="149" frameX="0" frameY="0" frameWidth="265" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED DOWN 10005" x="4" y="1538" width="264" height="149" frameX="0" frameY="0" frameWidth="265" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED DOWN 10006" x="272" y="1538" width="265" height="149"/>
+	<SubTexture name="GOREFIELDBED DOWN 10007" x="272" y="1538" width="265" height="149"/>
+	<SubTexture name="GOREFIELDBED DOWN 10008" x="272" y="1538" width="265" height="149"/>
+	<SubTexture name="GOREFIELDBED DOWN 10009" x="272" y="1538" width="265" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10000" x="541" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10001" x="775" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10002" x="775" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10003" x="1009" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10004" x="1009" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10005" x="1009" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10006" x="1009" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10007" x="1009" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10008" x="1009" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10009" x="1009" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10010" x="1009" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10011" x="1009" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10012" x="1009" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10013" x="1243" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10014" x="1243" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10015" x="1477" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10016" x="1477" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10017" x="1477" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10018" x="1477" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10019" x="1711" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10020" x="1711" y="1538" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10021" x="4" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10022" x="4" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED IDLE 10023" x="4" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED LEFT 10000" x="238" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED LEFT 10001" x="238" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED LEFT 10002" x="472" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED LEFT 10003" x="472" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED LEFT 10004" x="706" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED LEFT 10005" x="706" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED LEFT 10006" x="940" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED LEFT 10007" x="940" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED LEFT 10008" x="940" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED LEFT 10009" x="940" y="1691" width="230" height="149"/>
+	<SubTexture name="GOREFIELDBED RIGHT 10000" x="1174" y="1691" width="274" height="149"/>
+	<SubTexture name="GOREFIELDBED RIGHT 10001" x="1174" y="1691" width="274" height="149"/>
+	<SubTexture name="GOREFIELDBED RIGHT 10002" x="1452" y="1691" width="269" height="149" frameX="0" frameY="0" frameWidth="274" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED RIGHT 10003" x="1452" y="1691" width="269" height="149" frameX="0" frameY="0" frameWidth="274" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED RIGHT 10004" x="1725" y="1691" width="264" height="149" frameX="0" frameY="0" frameWidth="274" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED RIGHT 10005" x="1725" y="1691" width="264" height="149" frameX="0" frameY="0" frameWidth="274" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED RIGHT 10006" x="4" y="1844" width="263" height="149" frameX="0" frameY="0" frameWidth="274" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED RIGHT 10007" x="4" y="1844" width="263" height="149" frameX="0" frameY="0" frameWidth="274" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED RIGHT 10008" x="4" y="1844" width="263" height="149" frameX="0" frameY="0" frameWidth="274" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED RIGHT 10009" x="4" y="1844" width="263" height="149" frameX="0" frameY="0" frameWidth="274" frameHeight="149"/>
+	<SubTexture name="GOREFIELDBED UP 10000" x="271" y="1844" width="241" height="154" frameX="0" frameY="0" frameWidth="244" frameHeight="154"/>
+	<SubTexture name="GOREFIELDBED UP 10001" x="271" y="1844" width="241" height="154" frameX="0" frameY="0" frameWidth="244" frameHeight="154"/>
+	<SubTexture name="GOREFIELDBED UP 10002" x="516" y="1844" width="243" height="149" frameX="0" frameY="-5" frameWidth="244" frameHeight="154"/>
+	<SubTexture name="GOREFIELDBED UP 10003" x="516" y="1844" width="243" height="149" frameX="0" frameY="-5" frameWidth="244" frameHeight="154"/>
+	<SubTexture name="GOREFIELDBED UP 10004" x="763" y="1844" width="243" height="149" frameX="0" frameY="-5" frameWidth="244" frameHeight="154"/>
+	<SubTexture name="GOREFIELDBED UP 10005" x="763" y="1844" width="243" height="149" frameX="0" frameY="-5" frameWidth="244" frameHeight="154"/>
+	<SubTexture name="GOREFIELDBED UP 10006" x="1010" y="1844" width="244" height="149" frameX="0" frameY="-5" frameWidth="244" frameHeight="154"/>
+	<SubTexture name="GOREFIELDBED UP 10007" x="1010" y="1844" width="244" height="149" frameX="0" frameY="-5" frameWidth="244" frameHeight="154"/>
+	<SubTexture name="GOREFIELDBED UP 10008" x="1010" y="1844" width="244" height="149" frameX="0" frameY="-5" frameWidth="244" frameHeight="154"/>
+	<SubTexture name="GOREFIELDBED UP 10009" x="1010" y="1844" width="244" height="149" frameX="0" frameY="-5" frameWidth="244" frameHeight="154"/>
+</TextureAtlas>

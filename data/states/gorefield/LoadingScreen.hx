@@ -25,7 +25,7 @@ function create() {
 	var path:String = "assets/songs/" + PlayState.SONG.meta.name.toLowerCase() + "/loadingscreen.json";
 	if (FlxG.save.data.baby) path = "assets/data/loadingscreens/noob.json";
 
-	if (FlxG.random.bool(1)) path = easterEggs[FlxG.random.int(0, easterEggs.length-1)];
+	if (FlxG.random.bool(1) && PlayState.SONG.meta.name.toLowerCase() != "cataclysm" ) path = easterEggs[FlxG.random.int(0, easterEggs.length-1)];
 	var loadingData:Dynamic = {
 		loadingbg: "loadingbg1",
 		loadingimage: "rightloadingimage1",
