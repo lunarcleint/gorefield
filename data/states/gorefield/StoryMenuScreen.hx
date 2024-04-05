@@ -1960,8 +1960,9 @@ function generateSECRET() {
 	secretCode = codesCalculation.join("");
 	codes.set(secretCode, function() CodesFunctions.selectSong("Laughter and Cries", "Binky_icon"));
 
-
+	#if debug
 	trace(secretCode);
 	trace("Previous Code: " + previousCode);
+	#end
 	trace("Updated Binky Code");
 }
