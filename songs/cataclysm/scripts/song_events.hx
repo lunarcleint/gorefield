@@ -206,8 +206,8 @@ function stepHit(step:Int) {
             FlxTween.tween(FlxG.camera, {zoom: 1.2}, (Conductor.stepCrochet / 1000) * 15, {ease: FlxEase.quadIn, onComplete: function (tween:FlxTween) {
                 lerpCam = true; FlxG.camera.zoom += 0.25;
             }});
-            FlxTween.num(0.2, 6, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {chromatic.distortion = val;});
-            FlxTween.num(1, 0.2, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {bloom.dim = val;});
+            FlxTween.num(0.2, 3, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {chromatic.distortion = val;});
+            FlxTween.num(1.8, 0.2, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {bloom.dim = val;});
             FlxTween.tween(stage.stageSprites["black"], {alpha: 1}, (Conductor.stepCrochet / 1000) * 15, {ease: FlxEase.quadIn});
         case 1648:
             FlxG.camera._fxShakeDuration = 0;
@@ -236,8 +236,8 @@ function stepHit(step:Int) {
             FlxTween.tween(stage.stageSprites["black"], {alpha: 0}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.quadOut});
             FlxTween.tween(camHUD, {alpha: 1}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.quadOut});
 
-            FlxTween.num(6, 0.2, (Conductor.stepCrochet / 1000) * 8, {}, (val:Float) -> {bloom.dim = val;});
-            FlxTween.num(0.2, 1.2, (Conductor.stepCrochet / 1000) * 5, {}, (val:Float) -> {chromatic.distortion = val;});
+            FlxTween.num(3, 0.2, (Conductor.stepCrochet / 1000) * 8, {}, (val:Float) -> {chromatic.distortion = val;});
+            FlxTween.num(0.2, 1.2, (Conductor.stepCrochet / 1000) * 5, {}, (val:Float) -> {bloom.dim = val;});
         case 2175:
             targetAlpha1 = targetAlpha2 = 1;
             lerpCam = false;
@@ -246,9 +246,13 @@ function stepHit(step:Int) {
             }});
             FlxTween.tween(stage.stageSprites["black"], {alpha: 1}, (Conductor.stepCrochet / 1000) * 15, {ease: FlxEase.quadIn});
 
-            FlxTween.num(0.2, 6, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {chromatic.distortion = val;});
-            FlxTween.num(1, 0.2, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {bloom.dim = val;});
+            FlxG.camera.shake(0.00001, 9999999);
+            FlxTween.tween(FlxG.camera, {_fxShakeIntensity: 0.028}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.sineOut, startDelay: (Conductor.stepCrochet / 1000) * 8});
+            FlxTween.num(0.2, 3, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {chromatic.distortion = val;});
+            FlxTween.num(1.8, 0.2, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {bloom.dim = val;});
         case 2192:
+            FlxG.camera._fxShakeDuration = -1;
+
             stage.stageSprites["PUNISH_BG1"].alpha = stage.stageSprites["PUNISH_TV"].alpha = 0;
             stage.stageSprites["LASAGNA_BG"].alpha = 1;
             strumLineBfZoom = .85;
@@ -275,8 +279,8 @@ function stepHit(step:Int) {
 
             FlxTween.tween(stage.stageSprites["black"], {alpha: 0}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.quadOut});
 
-            FlxTween.num(6, 0.2, (Conductor.stepCrochet / 1000) * 8, {}, (val:Float) -> {chromatic.distortion = val;});
-            FlxTween.num(0.2, 1, (Conductor.stepCrochet / 1000) * 5, {}, (val:Float) -> {bloom.dim = val;});
+            FlxTween.num(3, 0.2, (Conductor.stepCrochet / 1000) * 8, {}, (val:Float) -> {chromatic.distortion = val;});
+            FlxTween.num(0.2, 1.8, (Conductor.stepCrochet / 1000) * 5, {}, (val:Float) -> {bloom.dim = val;});
         case 2320:
             for (strum in strumLines){
                 for (i=>strumLine in strumLines.members){
@@ -298,8 +302,8 @@ function stepHit(step:Int) {
             FlxTween.tween(FlxG.camera, {zoom: 1.5}, (Conductor.stepCrochet / 1000) * 15, {ease: FlxEase.quadIn, onComplete: function (tween:FlxTween) {
                 lerpCam = true; FlxG.camera.zoom += 0.25;
             }});
-            FlxTween.num(0.2, 6, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {chromatic.distortion = val;});
-            FlxTween.num(1, 0.2, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {bloom.dim = val;});
+            FlxTween.num(0.2, 3, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {chromatic.distortion = val;});
+            FlxTween.num(1.8, 0.2, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {bloom.dim = val;});
 
             FlxTween.tween(stage.stageSprites["black"], {alpha: 1}, (Conductor.stepCrochet / 1000) * 15, {ease: FlxEase.quadOut});
             FlxTween.tween(camHUD, {alpha: 0}, (Conductor.stepCrochet / 1000) * 15, {ease: FlxEase.quadOut});
@@ -329,8 +333,8 @@ function stepHit(step:Int) {
 
             FlxTween.tween(stage.stageSprites["black"], {alpha: 0}, (Conductor.stepCrochet / 1000) * 30, {ease: FlxEase.quadOut});
 
-            FlxTween.num(6, 0.2, (Conductor.stepCrochet / 1000) * 8, {}, (val:Float) -> {chromatic.distortion = val;});
-            FlxTween.num(0.2, 1, (Conductor.stepCrochet / 1000) * 5, {}, (val:Float) -> {bloom.dim = val;});
+            FlxTween.num(3, 0.2, (Conductor.stepCrochet / 1000) * 8, {}, (val:Float) -> {chromatic.distortion = val;});
+            FlxTween.num(0.2, 1.8, (Conductor.stepCrochet / 1000) * 5, {}, (val:Float) -> {bloom.dim = val;});
             zoomDisabled = true;
 
             camFollowChars = false; 
