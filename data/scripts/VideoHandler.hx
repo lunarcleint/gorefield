@@ -6,21 +6,23 @@ function onSubstateOpen(event) if (VideoHandler.curVideo != null && paused) Vide
 function onSubstateClose(event) if (VideoHandler.curVideo != null && paused) VideoHandler.curVideo.resume();
 function focusGained() if (VideoHandler.curVideo != null && !paused) VideoHandler.curVideo.resume();
 
-var camVideos:FlxCamera;
+public var camVideos:FlxCamera;
 
 public var VideoHandler:T = { // Donde están las clases? Donde están mis Skibidis Toilets?! -EstoyAburridow
     curVideo: null, //* FlxVideoSprite
     behindHUD: false,
     videosToPlay: [],
+    camsVisibles: [],
     load: function(paths:Array<String>, behindHUD:Bool, ?onEndReached:Void->Void) {
         VideoHandler.behindHUD = behindHUD;
-        var _onEndReached:Void->Void = onEndReached; //* Por alguna razón, sin esto, no detecta la función -EstoyAburridow
+        var _onEndReached:String->Void = onEndReached; //* Por alguna razón, sin esto, no detecta la función -EstoyAburridow
 
         var cameras:Array<FlxCameras> = FlxG.cameras.list.copy();
         for (camera in cameras) FlxG.cameras.remove(camera, false);
 
         camVideos = new FlxCamera();
         camVideos.bgColor = 0x00000000;
+        camVideos.visible = false;
         cameras.insert(cameras.indexOf(camHUD) + (behindHUD ? 0 : 1), camVideos);
 
         for (camera in cameras) FlxG.cameras.add(camera, camera == camGame);
@@ -38,6 +40,9 @@ public var VideoHandler:T = { // Donde están las clases? Donde están mis Skibi
 
                 VideoHandler.videosToPlay.shift();
                 VideoHandler.curVideo = null;
+
+                for (i => camera in FlxG.cameras.list)
+                    camera.visible = VideoHandler.camsVisibles[i];
 
                 if (_onEndReached != null)
                     _onEndReached();
@@ -63,6 +68,11 @@ public var VideoHandler:T = { // Donde están las clases? Donde están mis Skibi
     playNext: function() {
         VideoHandler.curVideo = VideoHandler.videosToPlay[0];
         VideoHandler.curVideo.play();
+
+        if (!VideoHandler.behindHUD) {
+            VideoHandler.camsVisibles = [for (camera in FlxG.cameras.list) camera.visible];
+            for (camera in FlxG.cameras.list) camera.visible = camera == camVideos;
+        }
 
         if (VideoHandler.behindHUD) insert(0, VideoHandler.curVideo); 
         else add(VideoHandler.curVideo);

@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="430" icon="icon-sansfield_GOD" camx="-440" y="-900" isGF="false" iconoffsetx="-12" iconoffsety="-15"  camy="280" color="#D3E1FF" isPlayer="false" holdTime="5" sprite="GOD_SANSFIELD_ASSETS">
+<character x="430" icon="icon-sansfield_GOD" camx="-440" y="-886" isGF="false" iconoffsetx="-12" iconoffsety="-15"  camy="280" color="#D3E1FF" isPlayer="false" holdTime="5" sprite="GOD_SANSFIELD_ASSETS">
 	<anim x="108" loop="false" y="27" fps="24" anim="SANSFIELD LEFT" name="singLEFT"/>
 	<anim x="99" loop="false" y="-47" fps="24" anim="SANSFIELD DOWN" name="singDOWN"/>
 	<anim x="90" loop="false" y="40" fps="24" anim="SANSFIELD UP" name="singUP"/>

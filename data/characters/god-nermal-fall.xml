@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-250" icon="NERMAL_GODFIELD" animatedIcon="true" iconoffsetx="30" iconoffsety="-10" camx="-160" y="-1200" isGF="false" camy="350" color="#999999" isPlayer="true" flipX="true" gameOverChar="godnermaldeath" sprite="NERMALL_FALL">
+<character x="-250" icon="NERMAL_GODFIELD" animatedIcon="true" iconoffsetx="30" iconoffsety="-10" camx="-160" y="-1280" isGF="false" camy="350" color="#999999" isPlayer="true" flipX="true" gameOverChar="godnermaldeath" sprite="NERMALL_FALL">
 	<anim x="0" loop="true" y="0" fps="24" anim="NERMALL FALL IDLE" name="idle"/>
 	<anim x="41" loop="false" y="-15" fps="24" anim="NERMALL LEFT0" name="singLEFT"/>
 	<anim x="-18" loop="false" y="-28" fps="24" anim="NERMALL DOWN" name="singDOWN"/>

@@ -1,5 +1,5 @@
-var preloadedCharacters:Map<String, Character> = [];
-var preloadedIcons:Map<String, FlxSprite> = [];
+public var preloadedCharacters:Map<String, Character> = [];
+public var preloadedIcons:Map<String, FlxSprite> = [];
 
 function postCreate() {
     for (event in PlayState.SONG.events)

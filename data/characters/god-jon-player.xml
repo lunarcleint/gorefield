@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="godfield_jon" iconoffsetx="20" iconoffsety="-10" camx="200" animatedIcon="true" y="350" isGF="false" camy="630" color="#346756" isPlayer="true" flipX="true" gameOverChar="godnermaldeath" sprite="JON_GOD">
+<character x="0" icon="godfield_jon" iconoffsetx="20" iconoffsety="-10" camx="200" animatedIcon="true" y="290" isGF="false" camy="650" color="#346756" isPlayer="true" flipX="true" gameOverChar="godnermaldeath" sprite="JON_GOD">
 	<anim x="-5" loop="false" y="0" fps="24" anim="JON IDLE" name="idle"/>
 	<anim x="-18" loop="false" y="-9" fps="24" anim="JON RIGHT" name="singRIGHT"/>
 	<anim x="30" loop="false" y="-81" fps="24" anim="JON DOWN" name="singDOWN"/>

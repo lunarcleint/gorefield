@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="600" icon="LB_JON_GODFIELD" iconoffsetx="30" iconoffsety="-10" animatedIcon="true" camx="-70" y="-240" isGF="false" camy="680" color="#346756" isPlayer="true" holdTime="4" gameOverChar="godnermaldeath" flipX="true" sprite="GOD_LASAGNA">
+<character x="660" icon="LB_JON_GODFIELD" iconoffsetx="30" iconoffsety="-10" animatedIcon="true" camx="-200" y="-240" isGF="false" camy="660" color="#346756" isPlayer="true" holdTime="4" gameOverChar="godnermaldeath" flipX="true" sprite="GOD_LASAGNA">
 	<anim x="0" loop="false" y="0" fps="24" anim="LASAGNA GOD IDLE" name="idle"/>
 	<anim x="87.5" loop="false" y="15" fps="24" anim="LASAGNA GOD LEFT" name="singLEFT"/>
 	<anim x="67.5" loop="false" y="-102.5" fps="24" anim="LASAGNA GOD DOWN" name="singDOWN"/>

@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-600" icon="GODFIELD_TRUE_FORM" camx="-150" y="-980" isGF="false" scale="1.5" camy="380" color="#346756" isPlayer="false" sprite="GODFIELD_ALTO" animatedIcon="true" iconoffsetx="10" iconoffsety="-35" noLosingIcon="true">
+<character x="-575" icon="GODFIELD_TRUE_FORM" camx="-40" y="-980" isGF="false" scale="1.5" camy="420" color="#346756" isPlayer="false" sprite="GODFIELD_ALTO" animatedIcon="true" iconoffsetx="10" iconoffsety="-35" noLosingIcon="true">
 	<anim x="0" loop="false" y="0" fps="24" anim="GODFIELD IDLE" name="idle"/>
 	<anim x="-120" loop="false" y="-127" fps="24" anim="GODFIELD LEFT" name="singLEFT"/>
 	<anim x="-181" loop="false" y="146.5" fps="24" anim="GODFIELD DOWN" name="singDOWN"/>

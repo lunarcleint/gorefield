@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="830" icon="BF_sansfield_ingame" iconoffsety="-10" animatedIcon="true" iconScale="0.9" camx="10" y="-180" isGF="false" camy="650" color="#5A50D3" flipX="true" isPlayer="true" gameOverChar="godnermaldeath" sprite="GOD_BF_SANS">
+<character x="830" icon="BF_sansfield_ingame" iconoffsety="-10" animatedIcon="true" iconScale="0.9" camx="10" y="-260" isGF="false" camy="650" color="#5A50D3" flipX="true" isPlayer="true" gameOverChar="godnermaldeath" sprite="GOD_BF_SANS">
 	<anim x="-5" loop="false" y="0" fps="24" anim="BF IDLE" name="idle"/>
 	<anim x="19" loop="false" y="11" fps="24" anim="BF LEFT" name="singLEFT"/>
 	<anim x="-9" loop="false" y="-19" fps="24" anim="BF DOWN" name="singDOWN"/>
