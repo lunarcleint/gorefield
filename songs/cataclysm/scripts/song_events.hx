@@ -237,7 +237,7 @@ function stepHit(step:Int) {
             FlxTween.tween(camHUD, {alpha: 1}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.quadOut});
 
             FlxTween.num(3, 0.2, (Conductor.stepCrochet / 1000) * 8, {}, (val:Float) -> {chromatic.distortion = val;});
-            FlxTween.num(0.2, 1.2, (Conductor.stepCrochet / 1000) * 5, {}, (val:Float) -> {bloom.dim = val;});
+            FlxTween.num(0.2, 1.8, (Conductor.stepCrochet / 1000) * 5, {}, (val:Float) -> {bloom.dim = val;});
         case 2175:
             targetAlpha1 = targetAlpha2 = 1;
             lerpCam = false;
