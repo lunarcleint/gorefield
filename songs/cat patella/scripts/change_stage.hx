@@ -25,6 +25,8 @@ function postCreate(){
     stage.stageSprites["overlay"].alpha = 0;
     tweenHealthBar(0,0.001);
 
+    strumLineBfZoom = 0.7;
+
     for (strum in strumLines)
         for (strumNotes in strum.members)
             strumNotes.y += camHUD.downscroll ? -200 : 700;
@@ -120,6 +122,7 @@ function stepHit(step:Int)
             stage.stageSprites["black"].alpha = 0;
             stage.stageSprites["black"].active = stage.stageSprites["black"].visible = true;
             FlxTween.tween(stage.stageSprites["black"], {alpha: 1}, (Conductor.crochet * 4) / 1000);
+            FlxTween.tween(camHUD, {alpha: 0}, (Conductor.crochet * 4) / 1000);
     }
 }
 
