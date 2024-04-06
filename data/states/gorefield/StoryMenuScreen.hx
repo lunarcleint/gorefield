@@ -1724,6 +1724,7 @@ var CodesFunctions:{} = {
 				PlayState.loadSong(songName, "hard", false, false);
 				PlayState.chartingMode = false;
 				PlayState.isStoryMode = true;
+				PlayState.storyPlaylist = [];
 
 				PlayState.storyWeek = {
 					name: weeks[8].name,
