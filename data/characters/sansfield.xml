@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
-<character x="0" y="0" icon="icon-sansfield" flipX="false" iconoffsetx="-12" iconoffsety="-15" isPlayer="null" camx="-130" camy="50" holdTime="6.1" scale="1" color="#D3E1FF">
+<character x="60" y="0" icon="icon-sansfield" flipX="false" iconoffsetx="-12" iconoffsety="-15" isPlayer="null" camx="-130" camy="20" holdTime="6.1" scale="1" color="#D3E1FF">
 	<anim name="idle" anim="SANSFIELD IDLE" fps="24" loop="false" x="0" y="0"/>
 	<anim name="singLEFT" anim="SANSFIELD LEFT" fps="24" loop="false" x="42" y="-28"/>
 	<anim name="singDOWN" anim="SANSFIELD DOWN" fps="24" loop="false" x="19" y="-147"/>

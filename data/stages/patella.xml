@@ -6,12 +6,11 @@
 		<one sprite="game/ready's/patella/Set" sound="sansfield/1"/>
 		<go sprite="game/ready's/patella/Monday" sound="sansfield/Blast"/>
 	</countdown>
-	<sprite name="patellaBG1" x="0" y="0" sprite="sansfield_cave" antialiasing="true" scrollx="0.6" scrolly="0.6" scale="1.5"/>
-	<sprite name="ice" x="-900" y="400" sprite="sansfield_ice" antialiasing="true" scrollx="0.8" scrolly="1" scale="1.5"/>
-	<sprite name="patellaBG2" x="0" y="0" sprite="sansfield_bg" antialiasing="true" scrollx="1" scrolly="1" scale="1.5"/>
+	<sprite name="patellaBG1" x="-100" y="-140" sprite="cat_petella_bg" antialiasing="true" scrollx="1" scrolly="1" scale="1.5"/>
 	<opponent x="300" y="420" camxoffset="210" camyoffset="0"/>
 	<player x="1170" y="220" camxoffset="-170" camyoffset="-60"/>
 	<girlfriend x="100" y="140" camxoffset="0" camyoffset="0" scroll="1"/>
+	<sprite name="patellaBG2" x="2200" y="0" sprite="cat_petella_tree" antialiasing="true" scrollx="1.3" scrolly="0.5" scale="1.5"/>
 	<sprite name="snowStorm" x="0" y="0" sprite="Snow-Storm" antialiasing="true" scrollx="0" scrolly="0">
 		<anim name="idle" anim="tormenta" loop="true"/>
 	</sprite>
