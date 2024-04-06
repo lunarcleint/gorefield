@@ -10,6 +10,7 @@ public var bloom:CustomShader;
 public var drunk:CustomShader;
 public var warpShader:CustomShader;
 public var chromatic:CustomShader;
+public var chromatic2:CustomShader;
 public var distort:CustomShader;
 public var particleSprite:FunkinSprite;
 public var particleShader:CustomShader;
@@ -68,9 +69,12 @@ function create() {
 
     chromatic = new CustomShader("chromaticWarp");
     chromatic.distortion = 0.2; 
+
+    chromatic2 = new CustomShader("chromaticWarp");
+    chromatic2.distortion = 0.2; 
     if (FlxG.save.data.warp) {
         FlxG.camera.addShader(chromatic);
-        camHUD.addShader(chromatic);
+        camHUD.addShader(chromatic2);
     }
 
     warpShader = new CustomShader("warp");
