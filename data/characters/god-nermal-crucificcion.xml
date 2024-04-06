@@ -1,4 +1,4 @@
 <!DOCTYPE codename-engine-character>
-<character x="-180" icon="NERMAL_GODFIELD" iconoffsetx="30" iconoffsety="-10" camx="-160" y="350" isGF="false" camy="350" color="#999999" animatedIcon="true" isPlayer="true" gameOverChar="godnermaldeath" sprite="NERMALL_CRUCIFICCION">
+<character x="-180" icon="NERMAL_GODFIELD" iconoffsetx="30" iconoffsety="-10" camx="-160" y="290" isGF="false" camy="150" color="#999999" animatedIcon="true" isPlayer="true" gameOverChar="godnermaldeath" sprite="NERMALL_CRUCIFICCION">
 	<anim x="0" loop="false" y="0" fps="24" anim="NERMALL CRUCIFICCION" name="start"/>
 </character>
