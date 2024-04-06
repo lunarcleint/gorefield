@@ -23,7 +23,7 @@ function postCreate() {
             camera.flash(0xFFFFFFFF, (Conductor.stepCrochet / 1000) * 12);
     });
     camVideos.addShader(bloom);
-    camVideos.addShader(chromatic);
+    camVideos.addShader(chromatic2);
 
     if (note_sprite != null) note_sprite.visible = note_sprite.active = false;
 }
@@ -246,13 +246,9 @@ function stepHit(step:Int) {
             }});
             FlxTween.tween(stage.stageSprites["black"], {alpha: 1}, (Conductor.stepCrochet / 1000) * 15, {ease: FlxEase.quadIn});
 
-            FlxG.camera.shake(0.00001, 9999999);
-            FlxTween.tween(FlxG.camera, {_fxShakeIntensity: 0.028}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.sineOut, startDelay: (Conductor.stepCrochet / 1000) * 8});
             FlxTween.num(0.2, 6, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {chromatic.distortion = val;});
             FlxTween.num(1, 0.2, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {bloom.dim = val;});
         case 2192:
-            FlxG.camera._fxShakeDuration = -1;
-
             stage.stageSprites["PUNISH_BG1"].alpha = stage.stageSprites["PUNISH_TV"].alpha = 0;
             stage.stageSprites["LASAGNA_BG"].alpha = 1;
             strumLineBfZoom = .85;
