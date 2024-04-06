@@ -246,13 +246,9 @@ function stepHit(step:Int) {
             }});
             FlxTween.tween(stage.stageSprites["black"], {alpha: 1}, (Conductor.stepCrochet / 1000) * 15, {ease: FlxEase.quadIn});
 
-            FlxG.camera.shake(0.00001, 9999999);
-            FlxTween.tween(FlxG.camera, {_fxShakeIntensity: 0.028}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.sineOut, startDelay: (Conductor.stepCrochet / 1000) * 8});
             FlxTween.num(0.2, 3, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {chromatic.distortion = val;});
             FlxTween.num(1.8, 0.2, (Conductor.stepCrochet / 1000) * 15, {}, (val:Float) -> {bloom.dim = val;});
         case 2192:
-            FlxG.camera._fxShakeDuration = -1;
-
             stage.stageSprites["PUNISH_BG1"].alpha = stage.stageSprites["PUNISH_TV"].alpha = 0;
             stage.stageSprites["LASAGNA_BG"].alpha = 1;
             strumLineBfZoom = .85;
@@ -315,7 +311,7 @@ function stepHit(step:Int) {
             strumLineDadZoom = -1;
             defaultCamZoom = 0.6;
 
-            particleCamMulti = .4;
+            particleCamMulti = .4; particleZoom = 0.15;
 
             for (name => char in preloadedCharacters)
                 switch (name) {
@@ -399,6 +395,8 @@ function stepHit(step:Int) {
             FlxTween.tween(camHUD, {alpha: 1}, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.quadIn});
             FlxTween.tween(stage.stageSprites["black"], {alpha: 0}, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.quadIn});
         case 4312:
+            camFollow.setPosition(-50, -260);
+            snapCam();
             for (sprite in ["RAYO_DIVISOR", "viento"])
                 FlxTween.tween(stage.stageSprites[sprite], {alpha: 0}, 0.4, {
                     onComplete: function() {
