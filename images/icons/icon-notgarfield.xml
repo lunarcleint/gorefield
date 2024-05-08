@@ -2,8 +2,8 @@
 <TextureAtlas imagePath="icon-notgarfield.png">
 	<!-- Created with Adobe Animate version 22.0.5.191 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="idle0000" x="4" y="4" width="131" height="113"/>
-	<SubTexture name="idle0001" x="4" y="4" width="131" height="113"/>
-	<SubTexture name="idle0002" x="4" y="121" width="130" height="112" frameX="-1" frameY="-1" frameWidth="131" frameHeight="113"/>
-	<SubTexture name="idle0003" x="4" y="121" width="130" height="112" frameX="-1" frameY="-1" frameWidth="131" frameHeight="113"/>
+	<SubTexture name="icon-gorefield0000" x="4" y="4" width="131" height="113"/>
+	<SubTexture name="icon-gorefield0001" x="4" y="4" width="131" height="113"/>
+	<SubTexture name="icon-gorefield0002" x="4" y="121" width="130" height="112" frameX="-1" frameY="-1" frameWidth="131" frameHeight="113"/>
+	<SubTexture name="icon-gorefield0003" x="4" y="121" width="130" height="112" frameX="-1" frameY="-1" frameWidth="131" frameHeight="113"/>
 </TextureAtlas>

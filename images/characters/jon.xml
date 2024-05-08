@@ -2,18 +2,32 @@
 <TextureAtlas imagePath="jon.png">
 	<!-- Created with Adobe Animate version 22.0.5.191 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="JON IDLE 10000" x="4" y="4" width="284" height="463" frameX="0" frameY="-1" frameWidth="284" frameHeight="464"/>
-	<SubTexture name="JON IDLE 10001" x="292" y="4" width="283" height="463" frameX="-1" frameY="-1" frameWidth="284" frameHeight="464"/>
-	<SubTexture name="JON IDLE 10002" x="292" y="4" width="283" height="463" frameX="-1" frameY="-1" frameWidth="284" frameHeight="464"/>
-	<SubTexture name="JON IDLE 10003" x="579" y="4" width="284" height="463" frameX="0" frameY="-1" frameWidth="284" frameHeight="464"/>
-	<SubTexture name="JON IDLE 10004" x="579" y="4" width="284" height="463" frameX="0" frameY="-1" frameWidth="284" frameHeight="464"/>
-	<SubTexture name="JON IDLE 10005" x="4" y="471" width="284" height="464"/>
-	<SubTexture name="JON IDLE 10006" x="4" y="471" width="284" height="464"/>
-	<SubTexture name="JON IDLE 10007" x="292" y="471" width="284" height="464"/>
-	<SubTexture name="JON IDLE 10008" x="292" y="471" width="284" height="464"/>
-	<SubTexture name="JON IDLE 10009" x="292" y="471" width="284" height="464"/>
-	<SubTexture name="JON IDLE 10010" x="292" y="471" width="284" height="464"/>
-	<SubTexture name="JON IDLE 10011" x="292" y="471" width="284" height="464"/>
-	<SubTexture name="JON IDLE 10012" x="292" y="471" width="284" height="464"/>
-	<SubTexture name="JON IDLE 10013" x="292" y="471" width="284" height="464"/>
+	<SubTexture name="JON IDLE 10000" x="4" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10001" x="290" y="4" width="280" height="458" frameX="-2" frameY="-1" frameWidth="282" frameHeight="459"/>
+	<SubTexture name="JON IDLE 10002" x="290" y="4" width="280" height="458" frameX="-2" frameY="-1" frameWidth="282" frameHeight="459"/>
+	<SubTexture name="JON IDLE 10003" x="574" y="4" width="281" height="459" frameX="-1" frameY="0" frameWidth="282" frameHeight="459"/>
+	<SubTexture name="JON IDLE 10004" x="574" y="4" width="281" height="459" frameX="-1" frameY="0" frameWidth="282" frameHeight="459"/>
+	<SubTexture name="JON IDLE 10005" x="859" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10006" x="859" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10007" x="1145" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10008" x="1145" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10009" x="1431" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10010" x="1431" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10011" x="1431" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10012" x="1431" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10013" x="1431" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10014" x="1717" y="4" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10015" x="4" y="467" width="280" height="458" frameX="-2" frameY="-1" frameWidth="282" frameHeight="459"/>
+	<SubTexture name="JON IDLE 10016" x="4" y="467" width="280" height="458" frameX="-2" frameY="-1" frameWidth="282" frameHeight="459"/>
+	<SubTexture name="JON IDLE 10017" x="288" y="467" width="281" height="459" frameX="-1" frameY="0" frameWidth="282" frameHeight="459"/>
+	<SubTexture name="JON IDLE 10018" x="288" y="467" width="281" height="459" frameX="-1" frameY="0" frameWidth="282" frameHeight="459"/>
+	<SubTexture name="JON IDLE 10019" x="573" y="467" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10020" x="573" y="467" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10021" x="859" y="467" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10022" x="859" y="467" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10023" x="1145" y="467" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10024" x="1145" y="467" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10025" x="1145" y="467" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10026" x="1145" y="467" width="282" height="459"/>
+	<SubTexture name="JON IDLE 10027" x="1145" y="467" width="282" height="459"/>
 </TextureAtlas>

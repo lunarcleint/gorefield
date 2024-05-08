@@ -1,12 +1,16 @@
 <!DOCTYPE codename-engine-character>
-<character color="#D44D29" sprite="boomf" x="0" isGF="false" y="0" camx="-70" icon="bf-art" isPlayer="true" flipX="true" holdTime="3" gameOverChar="bf-dead-art" animatedIcon="true" iconoffsetx="-30" iconoffsety="-18">
+<character color="#D44D29" sprite="boomf" x="30" isGF="false" y="0" camx="-70" camy="-30" icon="bf-art" isPlayer="true" flipX="true" holdTime="3" gameOverChar="alterbf" animatedIcon="true" iconoffsetx="-30" iconoffsety="-18">
 	<anim x="0" loop="false" y="0" fps="24" anim="BOOMF IDLE" name="idle"/>
 	<anim x="-1" loop="false" y="-1" fps="24" anim="BOOMF LEFT" name="singLEFT"/>
-	<anim x="-11" loop="false" y="-12" fps="24" anim="BOOMF DOWN" name="singDOWN"/>
-	<anim x="-17" loop="false" y="41" fps="24" anim="BOOMF UP" name="singUP"/>
+	<anim x="15" loop="false" y="-13" fps="24" anim="BOOMF DOWN" name="singDOWN"/>
+	<anim x="-17" loop="false" y="40" fps="24" anim="BOOMF UP" name="singUP"/>
 	<anim x="-21" loop="false" y="1" fps="24" anim="BOOMF RIGHT" name="singRIGHT"/>
-	<anim x="2" loop="false" y="-6" fps="24" anim="BOOMF MISSLEFT" name="singLEFTmiss"/>
-	<anim x="-9" loop="false" y="-17" fps="24" anim="BOOMF MISSDOWN" name="singDOWNmiss"/>
-	<anim x="-15" loop="false" y="47" fps="24" anim="BOOMF MISSUP" name="singUPmiss"/>
-	<anim x="-23" loop="false" y="-2" fps="24" anim="BOOMF MISSRIGHT" name="singRIGHTmiss"/>
+	<anim x="1" loop="false" y="-7" fps="24" anim="BOOMF MISSLEFT" name="singLEFTmiss"/>
+	<anim x="-10" loop="false" y="-20" fps="24" anim="BOOMF MISSDOWN" name="singDOWNmiss"/>
+	<anim x="-16" loop="false" y="45" fps="24" anim="BOOMF MISSUP" name="singUPmiss"/>
+	<anim x="-24" loop="false" y="-4" fps="24" anim="BOOMF MISSRIGHT" name="singRIGHTmiss"/>
+	<anim x="9" loop="false" y="-2" fps="24" anim="BOOMF HURT" name="hurt"/>
+	<anim x="190" loop="false" y="6" fps="24" anim="BOOMF DIES" name="firstDeath"/>
+	<anim x="190" loop="true" y="-73" fps="24" anim="BOOMF LOOP " name="deathLoop"/>
+	<anim x="190" loop="false" y="-73" fps="24" anim="BOOMF END" name="deathConfirm"/>
 </character>

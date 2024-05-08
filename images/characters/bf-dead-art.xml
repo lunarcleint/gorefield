@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="BF-DEAD-ART.png">
-	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+<TextureAtlas imagePath="bf-dead-art.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="BF Dead Loop0000" x="0" y="0" width="439" height="435"/>
 	<SubTexture name="BF Dead Loop0001" x="439" y="0" width="439" height="435"/>
@@ -123,7 +123,7 @@
 	<SubTexture name="BF dies0050" x="3073" y="2780" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
 	<SubTexture name="BF dies0051" x="3512" y="2780" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
 	<SubTexture name="BF dies0052" x="0" y="3215" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
-	<SubTexture name="BF dies0053" x="0" y="0" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="435"/>
+	<SubTexture name="BF dies0053" x="2195" y="0" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="435"/>
 	<SubTexture name="BF dies0054" x="439" y="3215" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
 	<SubTexture name="BF dies0055" x="439" y="3215" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
 	<SubTexture name="BF dies0056" x="439" y="3215" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>

@@ -27,18 +27,18 @@ function postCreate(){
 
 function stepHit(step:Int){
     switch(step){
-        case 0 | 320:
-            if (step == 320){
-                defaultCamZoom -= 0.3;
-                camFollowChars = true;
-            }
-
+        case 0:
             FlxTween.tween(stage.stageSprites["blackHUD"], {alpha: 0}, (Conductor.stepCrochet / 1000) * (step == 320 ? 8 : 30), {startDelay: step == 320 ? 0 : (Conductor.stepCrochet / 1000) * 10});
         case 298:
-            camFollow.setPosition(1142,388 + (camHUD.downscroll ? 200 : 0));
+            camFollow.setPosition(442,418 + (camHUD.downscroll ? 200 : 0));
             defaultCamZoom += 0.5;
+        case 320:
+            defaultCamZoom -= 0.3;
+            camFollowChars = true;
+        case 696:
+            stage.stageSprites["status"].animation.play('danger',true);
         case 928:
-            defaultCamZoom -= 0.2;
+            defaultCamZoom -= 0.1;
             camFollowChars = false;
             camFollow.setPosition(742,288 + (camHUD.downscroll ? 200 : 0));
         case 964:

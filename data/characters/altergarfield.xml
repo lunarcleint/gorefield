@@ -1,14 +1,16 @@
 <!DOCTYPE codename-engine-character>
 <character color="#D44D29" sprite="altergarfield" x="0" isGF="false" y="0" camx="-70" icon="icon-notgarfield" isPlayer="false" holdTime="3" animatedIcon="true" iconoffsetx="-30" iconoffsety="-18">
-	<anim x="0" loop="false" y="0" fps="24" anim="GOREFIELD IDLE" name="idle-alt"/>
+	<anim x="0" loop="false" y="1" fps="24" anim="GOREFIELD IDLE" name="idle-alt"/>
 	<anim x="3" loop="false" y="3" fps="24" anim="GOREFIELD LEFT" name="singLEFT-alt"/>
 	<anim x="0" loop="false" y="-33" fps="24" anim="GOREFIELD DOWN" name="singDOWN-alt"/>
 	<anim x="0" loop="false" y="4" fps="24" anim="GOREFIELD UP" name="singUP-alt"/>
 	<anim x="0" loop="false" y="-1" fps="24" anim="GOREFIELD RIGHT" name="singRIGHT-alt"/>
 	<anim x="13" loop="false" y="88" fps="24" anim="GOREFIELD TF" name="transform"/>
-	<anim x="20" loop="false" y="-140" fps="24" anim="GOREFIELDBED IDLE" name="idle"/>
-	<anim x="20" loop="false" y="-140" fps="24" anim="GOREFIELDBED LEFT" name="singLEFT"/>
-	<anim x="20" loop="false" y="-141" fps="24" anim="GOREFIELDBED DOWN" name="singDOWN"/>
-	<anim x="20" loop="false" y="-135" fps="24" anim="GOREFIELDBED UP" name="singUP"/>
-	<anim x="20" loop="false" y="-140" fps="24" anim="GOREFIELDBED RIGHT" name="singRIGHT"/>
+	<anim x="33" loop="false" y="-143" fps="24" anim="GOREFIELDBED IDLE" name="idle"/>
+	<anim x="33" loop="false" y="-143" fps="24" anim="GOREFIELDBED LEFT" name="singLEFT"/>
+	<anim x="33" loop="false" y="-143" fps="24" anim="GOREFIELDBED DOWN" name="singDOWN"/>
+	<anim x="33" loop="false" y="-138" fps="24" anim="GOREFIELDBED UP" name="singUP"/>
+	<anim x="33" loop="false" y="-143" fps="24" anim="GOREFIELDBED RIGHT" name="singRIGHT"/>
+	<anim x="33" loop="false" y="1" fps="24" anim="GOREFIELD LASAGNA" name="line"/>
+	<anim x="30" loop="false" y="9" fps="24" anim="GOREFIELD ATTACK" name="attack"/>
 </character>

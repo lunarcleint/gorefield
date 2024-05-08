@@ -33,6 +33,10 @@ function create()
             fakeCamZoom = 0.6;
             position[0].x = 160 + daCharacter.x;
             position[0].y = 600 + daCharacter.y;  
+        case 'alterbf':
+            fakeCamZoom = 1.2;
+            position[0].x = 60 + daCharacter.x;
+            position[0].y = 200 + daCharacter.y; 
         case 'bf-ultra':
             position[0].x = 200 + daCharacter.x;
             position[0].y = 500 + daCharacter.y;  

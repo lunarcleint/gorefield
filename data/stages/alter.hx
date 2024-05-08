@@ -20,7 +20,7 @@ function postCreate() {
 	camFollow.setPosition(742,288 + (camHUD.downscroll ? 200 : 0));
 
 	if (camHUD.downscroll){
-		stage.stageSprites["status"].y += 550;
+		stage.stageSprites["status"].y += 555;
 		stage.stageSprites["sombra"].y += 650;
 
 		boyfriend.cameraOffset.y += 60;
@@ -29,15 +29,17 @@ function postCreate() {
 
 	comboGroup.x += 640;
     comboGroup.y -= 10;
+
+	FlxG.camera.bgColor = FlxColor.fromRGB(53,35,82);
 		
 	snapCam();
 }
 
 function makeHealthBar(){
-	gorefieldhealthBar = new FlxBar(40, stage.stageSprites["bgBar"].y + (camHUD.downscroll ? 28 : 72), FlxBarFillDirection.RIGHT_TO_LEFT, 658, 22, PlayState.instance, "health", 0, 2);
+	gorefieldhealthBar = new FlxBar(124, stage.stageSprites["bgBar"].y - 63 + 72, FlxBarFillDirection.RIGHT_TO_LEFT, 658, 22, PlayState.instance, "health", 0, 2);
     gorefieldhealthBar.createImageBar(Paths.image("stages/altercat/barEmpty"), Paths.image("stages/altercat/bar"));
 	gorefieldhealthBar.cameras = [camHUD];
-	gorefieldhealthBar.scale.set(0.616,0.9);
+	gorefieldhealthBar.scale.set(0.52,0.87);
 	gorefieldhealthBar.updateHitbox();
 	stage.stageSprites["bgBar"].cameras = [camHUD];
     insert(members.indexOf(stage.stageSprites["bgBar"])+1,gorefieldhealthBar);

@@ -27,10 +27,10 @@ function onCameraMove(camMoveEvent) {
     if (camFollowChars) {
         if (camMoveEvent.strumLine != null && camMoveEvent.strumLine?.characters[0] != null) {
             switch (camMoveEvent.strumLine.characters[0].animation.name) {
-                case "singLEFT": movement.set(-camMoveOffset, 0);
-                case "singDOWN": movement.set(0, camMoveOffset);
-                case "singUP": movement.set(0, -camMoveOffset);
-                case "singRIGHT": movement.set(camMoveOffset, 0);
+                case "singLEFT" | "singLEFT-alt": movement.set(-camMoveOffset, 0);
+                case "singDOWN" | "singDOWN-alt": movement.set(0, camMoveOffset);
+                case "singUP" | "singUP-alt": movement.set(0, -camMoveOffset);
+                case "singRIGHT" | "singRIGHT-alt": movement.set(camMoveOffset, 0);
                 default: movement.set(0,0);
             };
             camMoveEvent.position.x += movement.x;
